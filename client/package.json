@@ -12,15 +12,22 @@
     "lint": "eslint . --fix"
   },
   "dependencies": {
+    "@babylonjs/core": "^7.52.2",
+    "@babylonjs/gui": "^7.52.2",
+    "@babylonjs/materials": "^7.52.2",
     "pinia": "^3.0.1",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.0",
+    "@types/babylonjs": "^2.3.31",
     "@types/node": "^22.13.9",
+    "@types/vue": "^1.0.31",
+    "@types/web": "^0.0.209",
     "@vitejs/plugin-vue": "^5.2.1",
     "@vue/eslint-config-typescript": "^14.5.0",
+    "@vue/runtime-dom": "^3.5.13",
     "@vue/tsconfig": "^0.7.0",
     "eslint": "^9.21.0",
     "eslint-plugin-vue": "~10.0.0",
